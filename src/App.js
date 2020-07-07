@@ -1,8 +1,11 @@
 import React from 'react';
+import Button from './Components/Button';
 
 const App = () => {
     return(
-        <div>Hello World</div>
+        <div>
+            <Button buttonText={'Click Me'} />
+        </div>
     )
 }
 

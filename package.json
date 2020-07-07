@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open",
-    "create": "webpack"
+    "create": "webpack",
+    "storybook": "start-storybook"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
+    "@storybook/react": "^5.3.19",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.6.0",
     "html-webpack-plugin": "^4.3.0",
@@ -27,12 +29,10 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
-  "babel":{
-
-    "presets" : [
+  "babel": {
+    "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
     ]
   }
 }
-
